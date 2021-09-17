@@ -10,15 +10,23 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/aos": "^3.0.4",
     "@types/lodash": "^4.14.172",
+    "bulma": "^0.9.3",
     "vite": "^2.5.1",
     "vite-plugin-solid": "^2.0.3"
   },
   "dependencies": {
-    "emotion-solid": "^1.1.1",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.21.4",
+    "chart.js": "^3.5.1",
     "lodash": "^4.17.21",
     "pipeline-operator": "^1.1.0",
+    "rxjs": "^7.3.0",
     "solid-app-router": "^0.1.5",
-    "solid-js": "^1.1.1"
+    "solid-chart.js": "^1.0.7",
+    "solid-js": "^1.1.1",
+    "solid-styled-components": "^0.27.3",
+    "solid-transition-group": "^0.0.8"
   }
 }

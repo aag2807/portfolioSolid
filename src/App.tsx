@@ -1,5 +1,6 @@
-import { Component, createSignal, onMount } from "solid-js";
+import { Component, createEffect, createSignal, onMount } from "solid-js";
 import {useRoutes } from 'solid-app-router'
+import anime from 'animejs';
 import { createViewPort } from "./hooks/createViewPort";
 import { createDocumentTitle } from "./hooks/createDocumentTitle";
 import { Routes } from "./routes/routes";
@@ -9,9 +10,7 @@ import { Divider } from "./components/containers/containers";
 
 const App: Component = () => {
   const Router = useRoutes(Routes)
-  const viewPort = createViewPort();
-  const [fetchedData, setFetchedData] = createSignal<any>([]);
-
+  let myRef;
 
 
   return (

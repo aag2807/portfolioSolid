@@ -1,5 +1,6 @@
 import { Component } from "solid-js";
 import { Hero, ViewContainer } from "../../components/containers/containers";
+import TText  from "../../components/misc/TText";
 import { createDocumentTitle } from "../../hooks/createDocumentTitle";
 import { styled } from "solid-styled-components";
 import { Colors } from "../../utils/Colors";

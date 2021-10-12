@@ -28,7 +28,6 @@ const UpperCard = styled("div")`
   width: 100%;
   position: absolute;
   background: rgba(0, 0, 0, 0.3);
-  border-radius: 16px 16px 0 0 ;
   transition: all ease-in 250ms;
 `;
 

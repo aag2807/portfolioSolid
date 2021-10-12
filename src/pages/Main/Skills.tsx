@@ -62,12 +62,15 @@ const Skills: Component = () => {
 				<SubP style={{"font-size":'1.2rem', "margin-bottom":"20px", "margin-top":"10px"}}>
           And there's a few not mentioned like haskell, since those are just for fun and haven't been used too deeply in production.
         </SubP>
-        <CardContainer style={{ "justify-content": "center" }}>
+       {/* <CardContainer style={{ "justify-content": "center" }}>
           <Card></Card>
           <Card></Card>
           <Card></Card>
           <Card></Card>
         </CardContainer>
+      */}
+
+      
       </ViewContainer>
     </>
   );
